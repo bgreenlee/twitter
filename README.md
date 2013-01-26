@@ -275,7 +275,7 @@ Twitter.middleware.insert_after Twitter::Response::RaiseError, CustomMiddleware
 A custom adapter may be set as part of a custom middleware stack:
 
 ```ruby
-Twitter.middleware = Faraday::Builder.new(
+Twitter.middleware = Faraday::RackBuilder.new(
   &Proc.new do |builder|
     # Specify a middleware stack here
     builder.adapter :some_other_adapter

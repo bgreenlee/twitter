@@ -165,7 +165,7 @@
 * [Add an identity map](https://github.com/sferik/twitter/commit/218479f71c861db79ccce8e12c4cb59d0a63cc77)
 * [Attempt to pull credentials from the environment when not specified](https://github.com/sferik/twitter/commit/32e3fde7ccc7aea15b24159302d7c0fd934a6a0a)
 * [Add default timeout options](https://github.com/sferik/twitter/commit/bb8a15d60e930233050e96964823b2f569e0943f)
-* [Middleware is now specified as a `Faraday::Builder`](https://github.com/sferik/twitter/commit/2bd5010fc38b235ee9cc09b75e1ae89f23409f94)
+* [Middleware is now specified as a `Faraday::RackBuilder`](https://github.com/sferik/twitter/commit/2bd5010fc38b235ee9cc09b75e1ae89f23409f94)
 * [Faraday errors are now captured and re-raised as a `Twitter::Error::ClientError`](https://github.com/sferik/twitter/commit/ccf3ddeb4cae937fdf3335546c17884472855149)
 * [Replace `Twitter::Error.ratelimit` methods with the singleton `Twitter::RateLimit` class](https://github.com/sferik/twitter/commit/4c63a7378305df791b6fbcd3d3beb83ccd360f95)
 * [Remove explicit proxy and user agent configuration](https://github.com/sferik/twitter/commit/f6e647f73eaa0f39b4306256789ded414ea9a8c2)
